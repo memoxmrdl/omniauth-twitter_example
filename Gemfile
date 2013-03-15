@@ -37,6 +37,7 @@ end
 #gem 'omniauth-openid', :git => 'git://github.com/intridea/omniauth-openid.git'
 #gem 'omniauth-twitter', :git => 'git://github.com/arunagw/omniauth-twitter'
 gem 'omniauth-twitter'
+gem 'omniauth-github'
 
 gem 'puma'
 
