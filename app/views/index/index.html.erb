@@ -1,0 +1,14 @@
+<% title "Welcome" %>
+
+<div id="message"><%= flash[:notice] %></div>
+<div id="user_nav">
+	<% if current_user %>
+  Welcome <%= current_user.name %> | <%= link_to "Logout", auth_logout_path %>
+  <% else %>
+  <%= link_to "Sign in with twitter", "/auth/twitter" %>
+  <% end %>
+</div>
+
+<center>
+<h1>Welcome</h1>
+</center>
